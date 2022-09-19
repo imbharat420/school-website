@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shree Aadarsha Secondary School</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <!-- <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div> -->
+  <!-- preloader end -->
+
+  <!-- header -->
+  <header class="fixed-top header">
+    <!-- top header -->
+    <div  class="top-header py-2 bg-white">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-4 text-center text-lg-left">
+            <a style="color: black;"   class="text-color mr-3" href="callto:9829330930"><strong >CALL</strong> +977-9829330930</a>
+           
+            <ul class="list-inline d-inline">
+              <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color"
+                  href="https://www.facebook.com/"><i
+                  style="color: black;" class="ti-facebook"></i></a></li>
+
+            </ul>
+          </div>
+          <div class="col-lg-8 text-center text-lg-right">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a style="color: black;" class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
+                  href="notice.html">Notice</a></li>
+              <li class="list-inline-item"><a style="color: black;" class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
+                  href="scholarship.html">SCHOLARSHIP</a></li>
+              <li class="list-inline-item"><a  style="color: black;" class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="index.html#"
+                  data-toggle="modal" data-target="#loginModal">Login</a></li>
+              <!-- <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#"
+                  data-toggle="modal" data-target="#signupModal">register</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <div class="navigation w-100">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto text-center">
+              <li class="nav-item @@home active">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item @@courses">
+                <a class="nav-link" href="courses.html">COURSES</a>
+              </li>
+              <li class="nav-item @@events">
+                <a class="nav-link" href="events.html">FACILITIES</a>
+              </li>
+              <li class="nav-item @@blog">
+                <a class="nav-link" href="blog.html">GALLERY</a>
+              </li>
+              <li class="nav-item dropdown view">
+                <a class="nav-link dropdown-toggle" href="index.html#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  More Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="administration.html">Administration</a>
+                  <a class="dropdown-item" href="teacher.html">Teacher</a>
+                  <a class="dropdown-item" href="achivement.html">Achivements</a>
+                  
+                  <a class="dropdown-item" href="notice.html">Notice</a>
+                
+                  <a class="dropdown-item" href="scholarship.html">Scholarship</a>
+                  <a class="dropdown-item" href="courses.html">Course Details</a>
+                  <a class="dropdown-item" href="eform.html">Exam Form</a>
+                  
+                </div>
+              </li>
+              <li class="nav-item @@contact">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+        <div class="modal-header border-0">
+          <h3>Login</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="index.html#" class="row">
+            <div class="col-12">
+              <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+            </div>
+            <div class="col-12">
+              <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword"
+                placeholder="Password">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">LOGIN</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- hero slider -->
+  <section class="hero-section overlay bg-cover" data-background="images/banner/banner-5.jpg">
+    <div class="container">
+      <div class="hero-slider">
+        
+          <!-- slider item -->
+        <div class="hero-slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInLeft" data-delay-in=".1"> +2 programme in Management</h1>
+              <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInLeft" data-delay-in=".4">About +2 program and school.</p>
+              <a href="https://.........." class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Apply now</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- slider item -->
+        <div class="hero-slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInLeft" data-delay-in=".1">+2 programme in Education</h1>
+              <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInLeft" data-delay-in=".4">About +2 in education and school.</p>
+              <a href="https://................" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Apply now</a>
+            </div>
+          </div>
+        </div>
+        <!-- slider item -->
+        <div class="hero-slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInDown" data-delay-in=".1"> class 10 programme </h1>
+              <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInDown" data-delay-in=".4">About class 10 programme.</p>
+              <a href="https://forms.gle/giVd75mcXnQFN3ET7" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Apply now</a>
+            </div>
+          </div>
+        </div>
+        <!-- slider item -->
+        <div class="hero-slider-item">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInUp" data-delay-in=".1"> Montessori class </h1>
+              <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3"
+                data-animation-in="fadeInUp" data-delay-in=".4">About Montessori class.</p>
+              <a href="https://.........." class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /hero slider -->
+
+  <!-- banner-feature -->
+  <section class="bg-gray overflow-md-hidden">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-xl-4 col-lg-5 align-self-end">
+          <img class="img-fluid w-100" src="images/banner/banner-feature.png" alt="banner-feature">
+        </div>
+        <div class="col-xl-8 col-lg-7">
+          <div class="row feature-blocks bg-gray justify-content-between">
+            <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+              <i class="ti-book mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+              
+              <h3 class="mb-xl-4 mb-lg-3 mb-4">Entrance Exam Form</h3>
+              <p> Click on <b>Download</b> for Entrance form <b>     intake 2079/80</b>. </p>
+              <a href="images/events/entrance.jpg" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5"
+                data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Download</a>
+
+            </div>
+            <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+              <i class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+               
+              
+              <h3 class="mb-xl-4 mb-lg-3 mb-4">Scholarship</h3>
+              <p>anything else about scholarship. </p>
+            </div>
+            <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+              <i class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+              <h3 class="mb-xl-4 mb-lg-3 mb-4">Curriculum</h3>
+              <p> anything else about Curriculum
+              </p>
+            </div>
+            <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+              <i class="ti-agenda mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+              <h3 class="mb-xl-4 mb-lg-3 mb-4">Achievements</h3>
+              <p>anything else about Achievements </p>
+            </div>
+            <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+              <i class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+              <h3 class="mb-xl-4 mb-lg-3 mb-4">Admission</h3>
+              <p>anything else about Admission.
+              </p>
+            </div>
+            
+            <!---test -->
+                	<!-- event -->
+        <div class="col-lg-4 col-sm-6 mb-5">
+          
+            <img class="card-img-top rounded-0" src="images/eebs.jpg" alt="course thumb">
+            
+          
+        </div>
+        <!-- event -->
+                   <!---/test -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /banner-feature -->
+
+  <!-- about us -->
+  <section class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-2 order-md-1">
+          <h2 class="section-title">About Aadarsha</h2>
+          <p>Shree Aadarsha Secondary School.</p>
+          <p>It aims at imparting
+            quality education to the student enabling them to develop their faculties, strengenthening and expanding
+            educational schemes to meet the emerging challenges of the era. It's purpose is to produce disiplined,
+            amicable, self
+            confident, dynamic, capable, good and helpful citizens for the society and the country through pragmatic
+            education.</p>
+          <a href="about.html" class="btn btn-primary-outline">Learn more</a>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+          <img class="img-fluid w-100" src="images/about/about-us.jpg" alt="about image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about us -->
+  
+  
+  <!-- courses -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center section-title justify-content-between">
+            <h2 class="mb-0 text-nowrap mr-3">Our Course</h2>
+
+          </div>
+        </div>
+      </div>
+      <!-- course list -->
+      <div class="row justify-content-center">
+        <!-- course item -->
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="card p-0 border-primary rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">
+            <div class="card-body">
+
+              <a href="courses.html">
+                <h4 class="card-title">Montessori</h4>
+              </a>
+              <p class="card-text mb-4">The Application form including the signature of the guardian with birth
+                certificate of the children to determine the minimum age for the registration with two passsport sized
+                photograph.</p>
+              <a href="contact.html" class="btn btn-primary btn-sm">Apply now</a>
+            </div>
+          </div>
+        </div>
+        <!-- course item -->
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="card p-0 border-primary rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/courses/course-2.jpg" alt="course thumb">
+            <div class="card-body">
+
+              <a href="courses.html">
+                <h4 class="card-title">Grade 1 - 8 (School Level)</h4>
+              </a>
+              <p class="card-text mb-4">The Original Transfer Certificate from the school last attended go with by
+                Character Certificate and The photocopy of grade-sheet of the student from the previous school is
+                required.</p>
+              <a href="contact.html" class="btn btn-primary btn-sm">Apply now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="card p-0 border-primary rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/courses/course-3.jpg" alt="course thumb">
+            <div class="card-body">
+
+              <a href="courses.html">
+                <h4 class="card-title">Grade 9 - 10 (School Level)</h4>
+              </a>
+              <p class="card-text mb-4">The Original Transfer Certificate from the school last attended go with by
+                Character Certificate and The photocopy of grade-sheet of the student from the previous school is
+                required</p>
+              <a href="contact.html" class="btn btn-primary btn-sm">Apply now</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- course item -->
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="card p-0 border-primary rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/events/event-4.jpg" alt="course thumb">
+            <div class="card-body">
+
+              <a href="courses.html">
+                <h4 class="card-title">Management (+2 level)</h4>
+              </a>
+              <p class="card-text mb-4">Students having passed SEE (passed as a regular candidate) Or equivalent from a
+                recognized institution/board, securing a minimum of 3.2 GPA aggreate and 'B' grade in each subjects are
+                eligible to apply.</p>
+              <a href="contact.html" class="btn btn-primary btn-sm">Apply now</a>
+            </div>
+          </div>
+        </div>
+        <!-- course item -->
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="card p-0 border-primary rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/courses/course-4.jpg" alt="course thumb">
+            <div class="card-body">
+
+              <a href="courses.html">
+                <h4 class="card-title">Education (+2 level)</h4>
+              </a>
+              <p class="card-text mb-4">Students having passed SEE (passed as a regular candidate) Or equivalent from a
+                recognized institution/board, securing a minimum of 3.2 GPA aggreate and 'B' grade in each subjects are
+                eligible to apply.</p>
+              <a href="contact.html" class="btn btn-primary btn-sm">Apply now</a>
+            </div>
+          </div>
+        </div>
+        <!-- course item -->
+        
+              
+
+        <!-- /course list -->
+      </div>
+  </section>
+  <!-- /courses -->
+
+
+
+  <!-- success story -->
+  <section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-4 position-relative success-video">
+          <a class="play-btn venobox" href="https://youtu.be/w2d2RI8M0RI" data-vbtype="video">
+            <i class="ti-control-play"></i>
+          </a>
+        </div>
+        <div class="col-lg-6 col-sm-8">
+          <div class="bg-white p-5">
+            <h2 class="section-title">Most Remarkable Achievements</h2>
+            <p>
+            <ul class="list-styled">
+              <li>anything else.</li>
+              <li>anything else.</li>
+              <li>anything else.</li>
+              <li> anything else.</li>
+              <li>anything else.</li>
+              <li>anything else.</li>
+              <li>anything else.</li>
+
+            </ul>
+            </p>
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- /success story -->
+
+  <!-- events -->
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center section-title justify-content-between">
+            <h2 class="mb-0 text-nowrap mr-3">Our Facilities</h2>
+            <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- event -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <div class="card-img position-relative">
+              <img class="card-img-top rounded-0" src="images/events/event-1.jpg" alt="event thumb">
+
+            </div>
+            <div class="card-body">
+              <!-- location -->
+
+              <a href="events.html">
+                <h4 class="card-title">Computer lab</h4>
+              </a>
+              anything about computer lab
+            </div>
+          </div>
+        </div>
+        <!-- event -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <div class="card-img position-relative">
+              <img class="card-img-top rounded-0" src="images/events/event-2.jpg" alt="event thumb">
+
+            </div>
+            <div class="card-body">
+              <!-- location -->
+
+              <a href="events.html">
+                <h4 class="card-title">Science Lab</h4>
+              </a>
+              anything about Science lab.
+            </div>
+          </div>
+        </div>
+        <!-- event -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <div class="card-img position-relative">
+              <img class="card-img-top rounded-0" src="images/events/event-3.jpg" alt="event thumb">
+
+            </div>
+            <div class="card-body">
+              <!-- location -->
+
+              <a href="events.html">
+                <h4 class="card-title">laiberary </h4>
+              </a>
+              anything about laiberary.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- mobile see all button -->
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+  <!-- /events -->
+
+  <!-- teachers -->
+  <section class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h2 class="section-title">Our Administration</h2>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-25.jpg" alt="teacher">
+            <div class="card-body">
+
+              <h4 class="card-title">i don't know</h4>
+              <p>Chairman</p>
+
+
+              <a href="teacher-single3.html" class="btn btn-primary btn-sm">More Info</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-1.jpg" alt="teacher">
+            <div class="card-body">
+
+              <h4 class="card-title">rabindra poudel</h4>
+              <p>Principal</p>
+
+              <a href="teacher-single.html" class="btn btn-primary btn-sm">More Info</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-26.jpg" alt="teacher">
+            <div class="card-body">
+
+              <h4 class="card-title">i don't know</h4>
+              <p>Vice-Principal</p>
+
+              <a href="teacher-single4.html" class="btn btn-primary btn-sm">More Info</a>
+
+            </div>
+          </div>
+        </div>
+        <!-- teacher -->
+        <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div class="card border-0 rounded-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/teachers/teacher-27.jpg" alt="teacher">
+            <div class="card-body">
+
+              <h4 class="card-title">i don't know</h4>
+              <p>Vice-Principal</p>
+
+              <a href="teacher-single5.html" class="btn btn-primary btn-sm">More Info</a>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- /teachers -->
+
+
+  <!-- blog -->
+  <section class="section pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-title">Our Gallery</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- blog post -->
+        <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div
+            class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/blog/post-1.jpg" alt="Post thumb">
+            <div class="card-body">
+              <!-- post meta -->
+
+
+              <h4 class="card-title">Student awarded in Essay Competition.</h4>
+
+
+              <a href="blog.html" class="btn btn-primary btn-sm">View More</a>
+            </div>
+          </div>
+        </article>
+        <!-- blog post -->
+        <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div
+            class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
+            <div class="card-body">
+              <!-- post meta -->
+
+
+              <h4 class="card-title">Students playing the National Anthem.</h4>
+
+
+              <a href="blog.html" class="btn btn-primary btn-sm">View More</a>
+            </div>
+          </div>
+        </article>
+        <!-- blog post -->
+        <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+          <div
+            class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+            <img class="card-img-top rounded-0" src="images/blog/post-3.jpg" alt="Post thumb">
+            <div class="card-body">
+              <!-- post meta -->
+
+
+              <h4 class="card-title">School children in play groups.</h4>
+
+
+              <a href="blog.html" class="btn btn-primary btn-sm">View More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- /blog -->
+
+  <!-- footer -->
+  <footer>
+    <!-- newsletter -->
+    <div class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+            <h3 class="text-white">Message to Aadarsha</h3>
+            <form action="index.html#">
+              <div class="input-wrapper">
+                <input type="text" class="form-control border-0" id="newsletter" name="newsletter"
+                  placeholder="Enter your message......">
+                <button type="submit" value="send" class="btn btn-primary">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer content -->
+    <div class="footer bg-footer section border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+            <!-- logo -->
+            <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="logo"></a>
+            <font color="white">
+              <ul class="list-unstyled">
+                <li class="mb-2">Shree Aadarsha  School . It impacts
+                  education in School level as well as +2 levels in two streams: Education and Management.</li><br>
+                <li class="mb-2">TEL : +977-9829330930 ,*********,**********</li>
+
+                <li class="mb-2">E-mail : rajudiyali3@gmail.com</li>
+              </ul>
+            </font>
+          </div>
+
+          <!-- links -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="text-white mb-5">QUICK LINKS</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-color" href="about.html"> About</a></li>
+              <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+              <li class="mb-3"><a class="text-color" href="events.html">Facilities</a></li>
+              <li class="mb-3"><a class="text-color" href="blog.html">Gallery</a></li>
+              <li class="mb-3"><a class="text-color" href="teacher.html">Teachers</a></li>
+
+            </ul>
+          </div>
+          <!-- support -->
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+            <h4 class="text-white mb-5">Follow Us</h4>
+            <ul class="list-unstyled">
+              <li class="mb-3"><a class="text-color"
+                  href="https://www.facebook.com/">Facebook</a></li>
+
+            </ul>
+          </div>
+          <!-- support -->
+
+        </div>
+      </div>
+    </div>
+    <!-- copyright -->
+
+    <div class="copyright py-4 bg-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 text-sm-left text-center">
+            <p class="mb-0" style="text-align: center; ">
+              <font color="white">Copyright
+
+                <script>
+                  var CurrentYear = new Date().getFullYear()
+                  document.write(CurrentYear)
+                </script>
+
+                © Shree Aadarsha Secondary School. &nbsp; All Right Reserved
+              </font> <br>
+            </p>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- /footer -->
+
+  <!-- jQuery -->
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="plugins/slick/slick.min.js"></script>
+  <!-- aos -->
+  <script src="plugins/aos/aos.js"></script>
+  <!-- venobox popup -->
+  <script src="plugins/venobox/venobox.min.js"></script>
+  <!-- filter -->
+  <script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+  <!-- google map -->
+
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
